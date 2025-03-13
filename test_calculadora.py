@@ -13,3 +13,7 @@ def test_divisao():
 def test_division_por_zero():
     with pytest.raises(ValueError, match="Não é permitido a divisão por zero!"):
         divisao(10, 0)
+
+
+def test_multiplicacao():
+    pass

@@ -1,7 +1,5 @@
 name: CI - Rodar Testes com Pytest
 
-
-
 on:
 
   push:
