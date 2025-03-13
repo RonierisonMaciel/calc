@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main\
-      
   pull_request:
     branches:
       - main
@@ -12,7 +11,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-  
+
     steps:
       - name: Clonar o repositório
         uses: actions/checkout@v3
