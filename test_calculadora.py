@@ -1,5 +1,5 @@
 import pytest
-from calculadora import soma, divisao
+from calculadora import soma, divisao, multiplicacao
 
 def test_soma():
     assert soma(2, 3) == 5
@@ -16,4 +16,6 @@ def test_division_por_zero():
 
 
 def test_multiplicacao():
-    pass
+    assert multiplicacao(2, 3) == 7
+    assert multiplicacao(0, 0) == 0
+    assert multiplicacao(1, 1) == 1
