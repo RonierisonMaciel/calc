@@ -9,4 +9,4 @@ def divisao(a:int, b:int):
     return a / b
 
 def multiplicacao(a:int, b:int):
-return a * b
+    return a * b
