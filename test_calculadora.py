@@ -16,6 +16,6 @@ def test_division_por_zero():
 
 
 def test_multiplicacao():
-    assert multiplicacao(2, 3) == 7
+    assert multiplicacao(2, 3) == 6
     assert multiplicacao(0, 0) == 0
     assert multiplicacao(1, 1) == 1
