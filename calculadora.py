@@ -2,7 +2,7 @@
 def soma(a, b):
     return a + b
 
-# função divisã
+# função divisão
 def divisao(a, b):
     if b == 0:
         raise ValueError("Não é permitido a divisão por zero!")
