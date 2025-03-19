@@ -19,3 +19,7 @@ def subtracao(a, b):
 # função square
 def square(a):
     return a * a
+
+# função módulo
+def modulo(a, b):
+    return a % b
