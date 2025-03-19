@@ -1,5 +1,5 @@
 import pytest
-from calculadora import soma, divisao, multiplicacao, subtracao, square
+from calculadora import soma, divisao, multiplicacao, subtracao, square, modulo
 
 
 def test_soma():
@@ -34,3 +34,8 @@ def test_square():
     assert square(2) == 4
     assert square(1) == 1
     assert square(-2) == 4
+    
+def test_modulo():
+    assert modulo(10, 3) == 1
+    assert modulo(9, 3) == 0
+    assert modulo(7, 4) == 3
